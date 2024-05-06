@@ -1,0 +1,55 @@
+
+body{
+    background: black;
+}
+
+.plansAndPrices{
+    display: flex;
+   justify-content:space-around;
+   align-items:center;
+   margin-top: 30px;
+}
+
+.plansContainer{
+    border:2px white solid;
+    padding: 40px;
+    border-radius: 10px;
+    
+}
+
+.plansContainer:hover{
+    background-color:rgba(40, 40, 116, 0.993);
+    
+}
+
+.buttonRegister{
+    background-color: rgb(70, 131, 180);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+
+}
+
+.buttonRegister:hover{
+    background-color: black;
+    color: white;
+}
+
+.buttonBuy{
+    background:brown;
+    border:none;
+    border-radius:5px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.buttonBuy:hover{
+    background-color: white;
+}

@@ -1,0 +1,33 @@
+.ModalContent {
+    display: flex; /* Usado para centralizar o conteúdo do modal */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    position:fixed; /* Posicionamento fixo na tela */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.6); /* Branco com opacidade */
+    z-index: 1000; /* Garante que o modal fique acima de outros elementos */ 
+}
+
+.close{
+   cursor: pointer;
+   position: absolute;
+   top: 10px;
+   right: 20px;
+}
+  
+.ModalBackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 270px;
+    left: 380px;
+    right: 380px;
+    bottom: 270px;
+    background-color: white; 
+    
+  }
+  
